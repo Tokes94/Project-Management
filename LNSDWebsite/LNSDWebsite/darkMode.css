@@ -1,0 +1,53 @@
+﻿body {
+    background-color: black;
+    /*background-image: url();*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: mediumpurple;
+    color: orange;
+    font-style: oblique;
+    text-align: center;
+    position: fixed;
+    width: 98%;
+    height: 20%;
+    top: 2%;
+    left: 1%;
+}
+
+.navBar {
+    background-color: indianred;
+    color: orange;
+    font-style: oblique;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    top: 24%;
+    left: 0%;
+}
+
+.slideShow {
+    background-color: maroon;
+    color: orange;
+    font-style: oblique;
+    text-align: center;
+    position: fixed;
+    width: 63%;
+    height: 70%;
+    top: 31%;
+    left: 1%;
+}
+
+.publicVote {
+    background-color: paleturquoise;
+    color: orange;
+    font-style: oblique;
+    text-align: center;
+    position: fixed;
+    width: 34%;
+    height: 70%;
+    top: 31%;
+    left: 65%;
+}
