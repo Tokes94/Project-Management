@@ -25,13 +25,22 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LNSDWebsite", "LNSDWebsite\
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{67D73C77-013B-4663-A408-F271A61FFA7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{43F933D3-D678-4DF5-BC60-66EB9ECC67F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{43F933D3-D678-4DF5-BC60-66EB9ECC67F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F933D3-D678-4DF5-BC60-66EB9ECC67F9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F933D3-D678-4DF5-BC60-66EB9ECC67F9}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{67D73C77-013B-4663-A408-F271A61FFA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D73C77-013B-4663-A408-F271A61FFA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D73C77-013B-4663-A408-F271A61FFA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D73C77-013B-4663-A408-F271A61FFA7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
