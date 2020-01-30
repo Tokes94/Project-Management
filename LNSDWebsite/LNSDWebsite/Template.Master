@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Template.master.cs" Inherits="LNSDComicsFigurinesManga.Template" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="darkMode.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header class="header">
+        </header>
+        <div class="navBar">
+            <a href="HomePage.aspx"><div class="button">HOME</div></a>
+            <a href="Comics.aspx"><div class="button">COMICS</div></a>
+            <a href="Figurines.aspx"><div class="button">FIGURINES</div></a>
+            <a href="Manga.aspx"><div class="button">MANGA</div></a>
+            <a href="AccountDetailsPage.aspx"><div class="button">ACCOUNT DETAILS</div></a>
+            <a href="LoginPage.aspx"><div class="button">LOGIN</div></a>
+        </div>
+        <div class="container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer class="footer">
+            Copyright &copy; 2020 LNSD Enterprise
+        </footer>
+    </form>
+</body>
+</html>
