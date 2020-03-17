@@ -8,6 +8,11 @@ namespace ClassLibrary
 {
     public class clsCartItem
     {
+        public clsCartItem()
+        {
+
+        }
+
         private Int32 mProduct_Id;
         public Int32 Product_Id
         {

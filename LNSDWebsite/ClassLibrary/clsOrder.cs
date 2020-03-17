@@ -8,6 +8,11 @@ namespace ClassLibrary
 {
     public class clsOrder
     {
+        public clsOrder()
+        {
+
+        }
+
         public void ProcessCart(clsCart ShoppingCart)
         {
             clsDataConnection DB = new clsDataConnection();
