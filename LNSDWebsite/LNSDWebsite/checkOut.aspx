@@ -1,10 +1,6 @@
-﻿<%@ Page Language="C#" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Checkout.aspx.cs" Inherits="CheckOut" %>
 
 <!DOCTYPE html>
-
-<script runat="server">
-
-</script>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -12,8 +8,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-
+    <div>
+    
         Payment details are typically captured here - leave it blank to see what might happen if payment details are not valid<br />
         <br />
         Credit card no <asp:TextBox ID="txtCardNo" runat="server" Width="257px"></asp:TextBox>
@@ -24,7 +20,7 @@
         <br />
         <asp:Button ID="btnCheckout" runat="server" OnClick="btnCheckout_Click" Text="Check Out" />
     
-        </div>
+    </div>
     </form>
 </body>
 </html>
